@@ -1,8 +1,3 @@
-# Student-Performance-Data-Audit
-Python data profiling and integrity audit for student performance datasets.
-import pandas as pd
-import numpy as np
-
 import pandas as pd
 import numpy as np
 
@@ -67,3 +62,4 @@ print(df['parental_level_of_education'].value_counts())
 print("\n--- Unique Value Identification: Lunch Program ---")
 print(df['lunch'].unique())
 print(f"Total Unique Values identified: {df['lunch'].nunique()}")
+
